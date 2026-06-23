@@ -2,17 +2,6 @@
 
 This project transforms fragmented Order-to-Cash (O2C) business data into a unified, explorable graph, coupled with an AI assistant that can answer natural-language queries about the dataset using structured executions context.
 
-## Demo
-
-**Public Link:**
-https://cyan-camels-listen.loca.lt
-*(Note: As this is hosted via localtunnel, you may need to click "Continue" on the initial security warning screen).*
-
-**Running Locally:**
-1. Requires Node v18+ and Python 3.9+.
-2. Download the `sap-order-to-cash-dataset.zip` and extract its contents into `data/`. The directory structure should be `data/sap-o2c-data/[events]/*.jsonl`.
-4. Start the server (which hosts both backend API and static frontend):
-   ```bash
    cd backend
    python -m venv venv
    source venv/bin/activate
